@@ -13,7 +13,7 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url();
     background-size: cover;
     background-position: center;
 }
@@ -50,7 +50,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #00ff0088;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -123,7 +123,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #00ff0088;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -197,7 +197,7 @@ width: 100%;
 }
 
 .services-list div:hover {
-    background: #ff004f;
+    background: #00ff0088;
     transform: translateY(-10px);
 }
 
@@ -229,7 +229,7 @@ width: 100%;
 .layer {
     width: 100%;
     height: 0;
-    background: #ff004f;
+    background: #00ff00;
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -274,7 +274,7 @@ width: 100%;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #00ff0088;
     padding: 14px 50px;
     border-radius: 6px;
     color: #fff;
@@ -283,7 +283,7 @@ width: 100%;
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #00ff0088;
 }
 
 /* ----------CONTACT---------- */
@@ -335,7 +335,7 @@ width: 100%;
 }
 
 .btn.btn3:hover {
-    background: #ff004f;
+    background: #00ff0088;
 }
 
 .contact-right form {
@@ -365,7 +365,7 @@ form textarea {
 }
 
 .copyright i {
-    color: #ff004f;
+    color: #00ff0088;
     transition: color 0.5s;
 }
 
